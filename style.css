@@ -96,6 +96,7 @@ h1 {
 #presentation {
   background-color: #d1f2f89a;
   padding: 10px 0px 100px 0px;
+  width: 100%;
 }
 #presentation img {
   height: 300px;
@@ -151,45 +152,30 @@ h1 {
 }
 #membre h4 {
   color: rgb(0, 0, 255);
-  padding-left: 2.5vw;
+  padding-left: 2.5%;
   padding-top: 65px;
   font-size: 2.5rem;
 }
 #membre p {
-  padding: 10px 2.5vw;
+  padding: 10px 2.5%;
 }
 .imagepresentation {
-  padding: 10px 2.5vw;
-  width: 95vw;
+  padding: 10px 2.5%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
-  height: 120px;
+  min-height: 200px;
+
+  /* height: 120px; */
+  /* flex-wrap: wrap; */
 }
-#imagepresentationn {
-  padding: 10px 2.5vw;
-  width: 95vw;
-  display: flex;
-  justify-content: space-between;
-  height: 120px;
-}
-#membre img {
+
+.imagepresentation img {
   border-radius: 10px;
-}
-
-#imagepresentationc {
-  padding: 10px 2.5vw;
-  width: 95vw;
-  display: flex;
-  justify-content: space-between;
-  height: 120px;
-}
-
-#imagepresentations {
-  padding: 10px 2.5vw;
-  width: 95vw;
-  display: flex;
-  justify-content: space-between;
-  height: 120px;
+  height: auto;
+  width: 9%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .imageprincipale h4 {
@@ -278,14 +264,14 @@ button:hover {
 
 #CD h4 {
   color: rgb(0, 0, 255);
-  padding-left: 2.5vw;
+  padding-left: 2.5%;
   padding-top: 65px;
   font-size: 2.5rem;
 }
 
 .imagepresentation {
-  padding: 10px 2.5vw;
-  width: 95vw;
+  padding: 10px 2.5%;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   height: 120px;
@@ -299,8 +285,9 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#CD img:hover []
+
 /* *************************services********************************* */
+
 #services {
   height: 100%;
   text-transform: uppercase;
