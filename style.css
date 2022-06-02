@@ -143,6 +143,7 @@ h1 {
 }
 #membre {
   background-color: #d1f2f89a;
+  padding-bottom: 50px;
 }
 #presentationmembre {
   flex-wrap: nowrap;
